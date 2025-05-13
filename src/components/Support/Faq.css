@@ -1,0 +1,55 @@
+.support form {
+  padding: 2rem;
+  background-color: #121212;
+  input,
+  textarea {
+    background-color: #000;
+    color: #fff !important;
+  }
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: #cdcccc !important;
+  }
+
+  input:focus,
+  textarea:focus {
+    background-color: #000 !important;
+  }
+
+  input.form-check-input:checked {
+    background-color: #e3080f !important;
+    border-color: #e3080f !important;
+  }
+
+  input.form-check-input:focus {
+    border-color: rgba(195, 5, 5, 0.5) !important;
+    box-shadow: 0 0 0 0.1rem rgb(87 0 0 / 50%) !important;
+  }
+}
+
+.question {
+  .question__number,
+  .question__cloapse {
+    cursor: pointer;
+  }
+  .question__number {
+    background-color: #121212;
+  }
+  hr {
+    border: 1px solid #e3080f;
+  }
+}
+
+.answer-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.answer-wrapper.open {
+  max-height: 500px;
+}

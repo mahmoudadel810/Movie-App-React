@@ -1,0 +1,22 @@
+.contact__form {
+  background: #121212;
+}
+input,
+textarea {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+input.form-control:focus,
+textarea.form-control:focus {
+  border-color: rgba(195, 5, 5, 0.5);
+  box-shadow: 0 0 0 0.1rem rgb(87 0 0 / 50%) !important;
+  caret-color: #e3080f;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #cdcccc !important;
+}
+
+.form-control {
+  border-color: rgb(51, 51, 51);
+}

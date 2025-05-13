@@ -1,0 +1,1714 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "password": "123",
+      "role": "admin"
+    }
+  ],
+  "movies": [
+    {
+      "Title": "Once Upon a Time... in Hollywood",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "26 Jul 2019",
+      "Runtime": "161 min",
+      "Genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "Director": [
+        "Quentin Tarantino"
+      ],
+      "Writer": [
+        "Quentin Tarantino"
+      ],
+      "Actors": [
+        "Leonardo DiCaprio",
+        "Brad Pitt",
+        "Margot Robbie"
+      ],
+      "Plot": "Quentin Tarantino's Once Upon a Time... in Hollywood visits 1969 Los Angeles, where everything is changing, as TV star Rick Dalton (Leonardo DiCaprio) and his longtime stunt double Cliff Booth (Brad Pitt) make their way around an industry they hardly recognize anymore. The ninth film from the writer-director features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywood's golden age.",
+      "Language": [
+        "English",
+        "Italian",
+        "Spanish",
+        "German"
+      ],
+      "Country": [
+        "United States",
+        "United Kingdom",
+        "China"
+      ],
+      "Awards": "Won 2 Oscars. 147 wins & 384 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "86%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "7.6",
+      "imdbVotes": "898,601",
+      "id": "tt7131622",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$142,502,728",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "false",
+      "Trailer": "https://www.youtube.com/embed/ELeMaP8EPAA"
+    },
+    {
+      "Title": "Vivre sa vie",
+      "Year": "1962",
+      "Rated": "Not Rated",
+      "Released": "20 Sep 1962",
+      "Runtime": "85 min",
+      "Genre": [
+        "Drama"
+      ],
+      "Director": [
+        "Jean-Luc Godard"
+      ],
+      "Writer": [
+        "Marcel Sacotte",
+        "Jean-Luc Godard"
+      ],
+      "Actors": [
+        "Anna Karina",
+        "Sady Rebbot",
+        "André S. Labarthe"
+      ],
+      "Plot": "This film explores a Parisian woman's descent into prostitution. The movie is comprised of a series of 12 \"tableaux\"-- scenes which are basically unconnected episodes, each presented with a worded introduction.",
+      "Language": [
+        "French"
+      ],
+      "Country": [
+        "France"
+      ],
+      "Awards": "3 wins & 1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDUwNDc1YjMtOWQwOS00OGJiLWFlODQtNjAzMjkwOTRhZmQ2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.8",
+      "imdbVotes": "36,059",
+      "id": "tt0056663",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$24,517",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "false",
+      "Trailer": "https://www.youtube.com/embed/ZAZGR5O33jw"
+    },
+    {
+      "Title": "M",
+      "Year": "1931",
+      "Rated": "Passed",
+      "Released": "31 Aug 1931",
+      "Runtime": "99 min",
+      "Genre": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "Director": [
+        "Fritz Lang"
+      ],
+      "Writer": [
+        "Thea von Harbou",
+        "Fritz Lang",
+        "Egon Jacobsohn"
+      ],
+      "Actors": [
+        "Peter Lorre",
+        "Ellen Widmann",
+        "Inge Landgut"
+      ],
+      "Plot": "There have been a rash of child abductions and murders in Berlin. The murderer lures the children into his confidence by candy and other such child friendly items. Everyone is on edge because the murderer has not been caught. The most substantial pieces of evidence the police have are hand written letters by the murderer which he sent to the newspaper for publication. Unknown even to himself, a blind beggar, who sold the murderer a balloon for one of the child victims, may have key information as to the murderer's identity. The murder squad's work is made even more difficult with the large number of tips they receive from the paranoid public, who are quick to accuse anyone of suspicious activity solely for their own piece of mind that someone - anyone - is apprehended for the heinous crimes. Conversely, many want to take the case into their own hands, including the town's leading criminals since the increased police presence has placed a strain on their ability to conduct criminal activity. Although they both have the same end goal of capturing the murderer, the police and the criminals seem to be working at cross purposes, which may provide an edge to the murderer in getting away.",
+      "Language": [
+        "German"
+      ],
+      "Country": [
+        "Germany"
+      ],
+      "Awards": "2 wins total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODA4ODk3OTEzMF5BMl5BanBnXkFtZTgwMTQ2ODMwMzE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "100%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.3",
+      "imdbVotes": "176,513",
+      "id": "tt0022100",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$35,566",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/V1YTeH3Km_Y"
+    },
+    {
+      "Title": "Min pappa Marianne",
+      "Year": "2020",
+      "Rated": "N/A",
+      "Released": "21 Feb 2020",
+      "Runtime": "110 min",
+      "Genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "Director": [
+        "Mårten Klingberg"
+      ],
+      "Writer": [
+        "Daniel Karlsson",
+        "Ida Kjellin",
+        "Ester Roxberg"
+      ],
+      "Actors": [
+        "Hedda Stiernstedt",
+        "Rolf Lassgård",
+        "Lena Endre"
+      ],
+      "Plot": "After breaking up with her boyfriend, 28-year-old aspiring journalist Hanna decides to leave Stockholm and move back in with her parents and brother in her small hometown, Alingsås. After she gets a job at the local news station, her world turns upside-down when her father, a respected priest in the community, informs his family of his lifelong feminine side and announces that he wants to come out as Marianne. The whole family must now deal with the consequences this might have for them and the community at large.",
+      "Language": [
+        "Swedish"
+      ],
+      "Country": [
+        "Sweden"
+      ],
+      "Awards": "2 wins & 1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjU3YmM4ZGUtZTVlOC00Yzc5LWIxNzUtNjk1YzE2MmVkNzkwXkEyXkFqcGdeQXVyMTEyNzI4ODY3._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.8",
+      "imdbVotes": "2,258",
+      "id": "tt9894440",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/PH58gPi-BFs"
+    },
+    {
+      "Title": "John Wick",
+      "Year": "2014",
+      "Rated": "R",
+      "Released": "24 Oct 2014",
+      "Runtime": "101 min",
+      "Genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "Director": [
+        "Chad Stahelski"
+      ],
+      "Writer": [
+        "Derek Kolstad"
+      ],
+      "Actors": [
+        "Keanu Reeves",
+        "Michael Nyqvist",
+        "Alfie Allen"
+      ],
+      "Plot": "With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution.",
+      "Language": [
+        "English",
+        "Russian",
+        "Hungarian"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "5 wins & 10 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "86%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "68/100"
+        }
+      ],
+      "Metascore": "68",
+      "imdbRating": "7.4",
+      "imdbVotes": "779,324",
+      "id": "tt2911666",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$43,037,835",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/C0BMx-qxsP4"
+    },
+    {
+      "Title": "Break",
+      "Year": "2019",
+      "Rated": "N/A",
+      "Released": "14 Feb 2019",
+      "Runtime": "85 min",
+      "Genre": [
+        "Adventure",
+        "Drama",
+        "Horror"
+      ],
+      "Director": [
+        "Tigran Sahakyan"
+      ],
+      "Writer": [
+        "Denis Kosyakov",
+        "Alexandr Nazarov",
+        "Olga Rud"
+      ],
+      "Actors": [
+        "Irina Antonenko",
+        "Andrey Nazimov",
+        "Denis Kosyakov"
+      ],
+      "Plot": "Five young adults, who want to celebrate New Years Eve on top of a mountain, one of them drops out, they get stuck in a gondola lift. What started out as an adventurous party, soon becomes a fight for survival.",
+      "Language": [
+        "Russian",
+        "English"
+      ],
+      "Country": [
+        "Russia"
+      ],
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWJhODFiMGEtMjA4Zi00Y2U2LTk2ZTAtNDIyMGI1ODkyMjM1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "4.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "4.6",
+      "imdbVotes": "2,401",
+      "id": "tt9805504",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/wGoZgKm6MEo"
+    },
+    {
+      "Title": "From",
+      "Year": "2022",
+      "Rated": "TV-MA",
+      "Released": "20 Feb 2022",
+      "Runtime": "N/A",
+      "Genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "John Griffin"
+      ],
+      "Actors": [
+        "Harold Perrineau",
+        "Catalina Sandino Moreno",
+        "Eion Bailey"
+      ],
+      "Plot": "FROM unravels the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest; including the terrifying creatures that come out when the sun goes down.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "2 wins & 25 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzM5ZWMxOGEtZjEyMC00YjQ0LThiYjEtZjVkZGEzN2NlOGEwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.8",
+      "imdbVotes": "141,544",
+      "id": "tt9813792",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/pDHqAj4eJcM"
+    },
+    {
+      "Title": "The Nevers",
+      "Year": "2021",
+      "Rated": "TV-MA",
+      "Released": "11 Apr 2021",
+      "Runtime": "58 min",
+      "Genre": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Joss Whedon"
+      ],
+      "Actors": [
+        "Laura Donnelly",
+        "Ann Skelly",
+        "Olivia Williams"
+      ],
+      "Plot": "An epic tale following a gang of Victorian women who find themselves with unusual abilities, relentless enemies, and a mission that might change the world.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United Kingdom",
+        "United States"
+      ],
+      "Awards": "Nominated for 2 Primetime Emmys. 2 wins & 16 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGJmNDY4YjItZjlmMC00ODE0LTk2NjgtNWFiODA0NDhlYWVmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.4",
+      "imdbVotes": "28,595",
+      "id": "tt8697870",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/kmeA61z17ck"
+    },
+    {
+      "Title": "Sherlock",
+      "Year": "2010",
+      "Rated": "TV-14",
+      "Released": "24 Oct 2010",
+      "Runtime": "88 min",
+      "Genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Mark Gatiss",
+        "Steven Moffat"
+      ],
+      "Actors": [
+        "Benedict Cumberbatch",
+        "Martin Freeman",
+        "Una Stubbs"
+      ],
+      "Plot": "In this modernized version of the Conan Doyle characters, using his detective plots, Sherlock Holmes lives in early 21st century London and acts more cocky towards Scotland Yard's detective inspector Lestrade because he's actually less confident. Doctor Watson is now a fairly young veteran of the Afghan war, less adoring and more active.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United Kingdom",
+        "United States"
+      ],
+      "Awards": "Won 9 Primetime Emmys. 95 wins & 185 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.1/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "9.1",
+      "imdbVotes": "1,045,351",
+      "id": "tt1475582",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/IrBKwzL3K7s"
+    },
+    {
+      "Title": "You",
+      "Year": "2018",
+      "Rated": "TV-MA",
+      "Released": "09 Sep 2018",
+      "Runtime": "45 min",
+      "Genre": [
+        "Crime",
+        "Drama",
+        "Romance"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Greg Berlanti",
+        "Sera Gamble"
+      ],
+      "Actors": [
+        "Penn Badgley",
+        "Victoria Pedretti",
+        "Charlotte Ritchie"
+      ],
+      "Plot": "Based on Caroline Kepnes' best-selling novel of the same name, YOU is a 21st century love story that asks, \"What would you do for love?\" When a brilliant bookstore manager crosses paths with an aspiring writer, his answer becomes clear: anything. Using the internet and social media as his tools to gather the most intimate of details and get close to her, a charming and awkward crush quickly becomes obsession as he quietly and strategically removes every obstacle - and person - in his way.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "4 wins & 11 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTVlYmRhMWQtNmE0Yi00ODM1LWEzMWEtNTQzZGZhODRmZTE0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.7",
+      "imdbVotes": "324,857",
+      "id": "tt7335184",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/kQdEHQLHDAI"
+    },
+    {
+      "Title": "Vikend sa caletom",
+      "Year": "2021",
+      "Rated": "N/A",
+      "Released": "22 Jan 2021",
+      "Runtime": "N/A",
+      "Genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "N/A"
+      ],
+      "Actors": [
+        "Nenad Jezdic",
+        "Vasa Vranes",
+        "Branko Vidakovic"
+      ],
+      "Plot": "The 2020 theatrical film of the same name reedited into a seven part mini-series. A middle-aged former criminal has little time to live due to cancer, so he gets to see his son after 5 years to spend his last week with him and tea...",
+      "Language": [
+        "Serbian"
+      ],
+      "Country": [
+        "Serbia"
+      ],
+      "Awards": "1 win",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDY1MzEyZDEtYmI2Ni00NDYzLTliZGYtNWFiOWFlNTQzOTdmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.9/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.9",
+      "imdbVotes": "553",
+      "id": "tt13899680",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/rlEnw70QGnQ"
+    },
+    {
+      "Title": "Jana",
+      "Year": "2004",
+      "Rated": "N/A",
+      "Released": "01 May 2004",
+      "Runtime": "80 min",
+      "Genre": [
+        "Action",
+        "Drama"
+      ],
+      "Director": [
+        "Shaji Kailas"
+      ],
+      "Writer": [
+        "Shaji Kailas"
+      ],
+      "Actors": [
+        "Ajith Kumar",
+        "Sneha",
+        "Siddique"
+      ],
+      "Plot": "Jana a cool corporate employee lives with his family in Mumbai. He has a secret life as a gangster who supports the well being of Mumbai Tamils. Jana's brother a cop finds Jana's name in their hit list and trice to make him quit but fails. Jana's family except him and his father are killed by other gangsters. following this tragedy they migrate to a village in Tamil Nadu ware Jana finds his girl. Jana kills the villain who killed his family as he followed Jana's girl from Mumbai to find him.",
+      "Language": [
+        "Tamil"
+      ],
+      "Country": [
+        "India"
+      ],
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2YxMWE1NmQtMGY0MS00YmRlLWE5NTYtYTk1MTBiOGE5YTRiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "3.3/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "3.3",
+      "imdbVotes": "698",
+      "id": "tt1861356",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/ZlGVnRLnRy0"
+    },
+    {
+      "Title": "Breaking Bad",
+      "Year": "2008",
+      "Rated": "TV-MA",
+      "Released": "20 Jan 2008",
+      "Runtime": "49 min",
+      "Genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Vince Gilligan"
+      ],
+      "Actors": [
+        "Bryan Cranston",
+        "Aaron Paul",
+        "Anna Gunn"
+      ],
+      "Plot": "When chemistry teacher Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico. Determined to ensure that his family will have a secure future, Walt embarks on a career of drugs and crime. He proves to be remarkably proficient in this new world as he begins manufacturing and selling methamphetamine with one of his former students. The series tracks the impacts of a fatal diagnosis on a regular, hard working man, and explores how a fatal diagnosis affects his morality and transforms him into a major player of the drug trade.",
+      "Language": [
+        "English",
+        "Spanish"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "Won 16 Primetime Emmys. 169 wins & 269 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "96%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "9.5",
+      "imdbVotes": "2,313,544",
+      "id": "tt0903747",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/HhesaQXLuRY"
+    },
+    {
+      "Title": "Uncharted",
+      "Year": "2022",
+      "Rated": "PG-13",
+      "Released": "18 Feb 2022",
+      "Runtime": "116 min",
+      "Genre": [
+        "Action",
+        "Adventure"
+      ],
+      "Director": [
+        "Ruben Fleischer"
+      ],
+      "Writer": [
+        "Rafe Judkins",
+        "Art Marcum",
+        "Matt Holloway"
+      ],
+      "Actors": [
+        "Tom Holland",
+        "Mark Wahlberg",
+        "Antonio Banderas"
+      ],
+      "Plot": "Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor \"Sully\" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.",
+      "Language": [
+        "English",
+        "Spanish",
+        "Latin"
+      ],
+      "Country": [
+        "Spain",
+        "United States"
+      ],
+      "Awards": "5 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjQxYWNiNzgtOTc2Yi00OGEwLTk5MjAtODdiZTk0ZDJlZGY4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.3/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "45/100"
+        }
+      ],
+      "Metascore": "45",
+      "imdbRating": "6.3",
+      "imdbVotes": "280,841",
+      "id": "tt1464335",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$148,648,820",
+      "Production": "Columbia Pictures",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/eHp3MbsCbMg"
+    },
+    {
+      "Title": "Click",
+      "Year": "2006",
+      "Rated": "PG-13",
+      "Released": "23 Jun 2006",
+      "Runtime": "107 min",
+      "Genre": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "Director": [
+        "Frank Coraci"
+      ],
+      "Writer": [
+        "Steve Koren",
+        "Mark O'Keefe"
+      ],
+      "Actors": [
+        "Adam Sandler",
+        "Kate Beckinsale",
+        "Christopher Walken"
+      ],
+      "Plot": "Michael Newman (Sandler) is a hard working family man, who must please his boss (Hasselhoff), in order to get promoted. Problem is he gets less time with his family, and wishes for a remote in which he can control his life. This soon comes true for Newman, when he meets Morty (Walken), a crazy sales clerk, who has the ultimate remote. A remote in which he can do anything, including muting, skipping and dubbing his life. He finds this to be the opportunity in which he can not only skip every argument, but also skip to his promotion. He sees this as a good idea, until the remote goes horribly wrong.",
+      "Language": [
+        "English",
+        "Spanish",
+        "Japanese",
+        "Portuguese"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "Nominated for 1 Oscar. 3 wins & 12 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTA1MTUxNDY4NzReQTJeQWpwZ15BbWU2MDE3ODAxNw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "34%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "45/100"
+        }
+      ],
+      "Metascore": "45",
+      "imdbRating": "6.4",
+      "imdbVotes": "371,375",
+      "id": "tt0389860",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$137,355,633",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/zZNC5emNyEQ"
+    },
+    {
+      "Title": "Mother",
+      "Year": "2009",
+      "Rated": "R",
+      "Released": "28 May 2009",
+      "Runtime": "129 min",
+      "Genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "Director": [
+        "Bong Joon Ho"
+      ],
+      "Writer": [
+        "Bong Joon Ho",
+        "Eun-kyo Park"
+      ],
+      "Actors": [
+        "Kim Hye-ja",
+        "Won Bin",
+        "Jin Goo"
+      ],
+      "Plot": "A mother lives quietly with her twenty-eight-year-old son, Do-joon, providing herbs and acupuncture to neighbors. One day, a girl is brutally murdered, and Do-joon is charged with the killing. Now, it's his mother's call whether to prove him innocent or to leave him imprisoned.",
+      "Language": [
+        "Korean"
+      ],
+      "Country": [
+        "South Korea"
+      ],
+      "Awards": "44 wins & 47 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQzMTg0NDA1M15BMl5BanBnXkFtZTgwODUzMTE0MjE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "96%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "79/100"
+        }
+      ],
+      "Metascore": "79",
+      "imdbRating": "7.7",
+      "imdbVotes": "75,731",
+      "id": "tt1216496",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$551,509",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/XpICoc65uh0"
+    },
+    {
+      "Title": "Yummy",
+      "Year": "2019",
+      "Rated": "Not Rated",
+      "Released": "25 Jun 2020",
+      "Runtime": "88 min",
+      "Genre": [
+        "Comedy",
+        "Horror"
+      ],
+      "Director": [
+        "Lars Damoiseaux"
+      ],
+      "Writer": [
+        "Lars Damoiseaux",
+        "Eveline Hagenbeek"
+      ],
+      "Actors": [
+        "Maaike Neuville",
+        "Bart Hollanders",
+        "Benjamin Ramon"
+      ],
+      "Plot": "Yummy is an orgy of blood, violence and fun in which a young couple travel to a shabby Eastern European hospital for plastic surgery. The young woman wants a breast reduction. Her mother comes along for yet another face-lift. Wandering through an abandoned ward the boyfriend stumbles upon a young woman, gagged and strapped to an operating table; she is the result of an experimental rejuvenation treatment. He frees her, but does not realize he just caused the outbreak of a virus that will change doctors, patients and his mother-in-law into bloodthirsty zombies.",
+      "Language": [
+        "Dutch",
+        "English"
+      ],
+      "Country": [
+        "Belgium"
+      ],
+      "Awards": "1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmVkMDg3NzMtNGY3NS00YTQ0LWIxNjItMDRhZDAyMjRiMTM4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "69%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "5.9",
+      "imdbVotes": "6,450",
+      "id": "tt11054164",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/zq9K3pVQsmI"
+    },
+    {
+      "Title": "Long Shot",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "03 May 2019",
+      "Runtime": "125 min",
+      "Genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "Director": [
+        "Jonathan Levine"
+      ],
+      "Writer": [
+        "Dan Sterling",
+        "Liz Hannah"
+      ],
+      "Actors": [
+        "Charlize Theron",
+        "Seth Rogen",
+        "June Diane Raphael"
+      ],
+      "Plot": "Fred Flarsky (Seth Rogen) is a gifted and free-spirited journalist with an affinity for trouble. Charlotte Field (Charlize Theron) is one of the most influential women in the world. Smart, sophisticated, and accomplished, she's a powerhouse diplomat with a talent for...well, mostly everything. The two have nothing in common, except that she was his babysitter and childhood crush. When Fred unexpectedly reconnects with Charlotte, he charms her with his self-deprecating humor and his memories of her youthful idealism. As she prepares to make a run for the Presidency, Charlotte impulsively hires Fred as her speechwriter, much to the dismay of her trusted advisors. A fish-out-of-water on Charlotte's elite team, Fred is unprepared for her glamorous lifestyle in the limelight. However, sparks fly as their unmistakable chemistry leads to a round-the-world romance and a series of unexpected and dangerous incidents.",
+      "Language": [
+        "English",
+        "Swedish",
+        "French",
+        "Vietnamese",
+        "Russian",
+        "Hebrew"
+      ],
+      "Country": [
+        "United States",
+        "Canada",
+        "Colombia"
+      ],
+      "Awards": "5 wins & 13 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2E2NDIwMGUtNmFkZC00NDFjLWI5ZWMtMTE1M2E2YTM1OWVlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "82%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "6.8",
+      "imdbVotes": "125,622",
+      "id": "tt2139881",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$30,316,271",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/PDxISykYRc4"
+    },
+    {
+      "Title": "Crush",
+      "Year": "2022",
+      "Rated": "TV-MA",
+      "Released": "29 Apr 2022",
+      "Runtime": "93 min",
+      "Genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "Director": [
+        "Sammi Cohen"
+      ],
+      "Writer": [
+        "Kirsten King",
+        "Casey Rackham"
+      ],
+      "Actors": [
+        "Rowan Blanchard",
+        "Auli'i Cravalho",
+        "Isabella Ferreira"
+      ],
+      "Plot": "An aspiring artist and high school student who is forced, against her will, to join her high school track team. However, the situation isn't entirely bad, as it gives her an opportunity to pursue a girl that she has had a long-term crush on. However, things get even more complicated when she finds that she is falling for another teammate entirely. Soon she will see what real love feels like.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "1 win & 1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTQ5ZGE5ZjMtYWFiMC00NWZlLTk3ZTgtY2VkYjMwYTEzNGQ3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "82%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "56/100"
+        }
+      ],
+      "Metascore": "56",
+      "imdbRating": "6.3",
+      "imdbVotes": "10,476",
+      "id": "tt15096128",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/NHxwLymYHWA"
+    },
+    {
+      "Title": "World War Z",
+      "Year": "2013",
+      "Rated": "PG-13",
+      "Released": "21 Jun 2013",
+      "Runtime": "116 min",
+      "Genre": [
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "Director": [
+        "Marc Forster"
+      ],
+      "Writer": [
+        "Matthew Michael Carnahan",
+        "Drew Goddard",
+        "Damon Lindelof"
+      ],
+      "Actors": [
+        "Brad Pitt",
+        "Mireille Enos",
+        "Daniella Kertesz"
+      ],
+      "Plot": "Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.",
+      "Language": [
+        "English",
+        "Spanish",
+        "Hebrew",
+        "Arabic"
+      ],
+      "Country": [
+        "United States",
+        "United Kingdom"
+      ],
+      "Awards": "3 wins & 25 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODg3ZTM2YWQtZDE5Ny00NGNiLTkzYjgtYWVlYjNkOTg5NDI1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "67%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "63/100"
+        }
+      ],
+      "Metascore": "63",
+      "imdbRating": "7.0",
+      "imdbVotes": "748,742",
+      "id": "tt0816711",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$202,807,711",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/Md6Dvxdr0AQ"
+    },
+    {
+      "Title": "Brave",
+      "Year": "2012",
+      "Rated": "PG",
+      "Released": "22 Jun 2012",
+      "Runtime": "93 min",
+      "Genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Director": [
+        "Mark Andrews",
+        "Brenda Chapman",
+        "Steve Purcell"
+      ],
+      "Writer": [
+        "Brenda Chapman",
+        "Mark Andrews",
+        "Steve Purcell"
+      ],
+      "Actors": [
+        "Kelly Macdonald",
+        "Billy Connolly",
+        "Emma Thompson"
+      ],
+      "Plot": "Set in Scotland in a rugged and mythical time, this movie features Princess Merida (Kelly Macdonald), an aspiring archer and impetuous daughter of Queen Elinor (Dame Emma Thompson). Merida makes a reckless choice that unleashes unintended peril and forces her to spring into action to set things right.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States",
+        "Japan",
+        "United Kingdom"
+      ],
+      "Awards": "Won 1 Oscar. 20 wins & 48 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "78%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.1",
+      "imdbVotes": "459,211",
+      "id": "tt1217209",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$237,283,207",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/6CKcqIahedc"
+    },
+    {
+      "Title": "Get-Set Baby!",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "21 Feb 2025",
+      "Runtime": "N/A",
+      "Genre": [
+        "Drama"
+      ],
+      "Director": [
+        "Vinay Govind"
+      ],
+      "Writer": [
+        "Y.V. Rajesh",
+        "Anoop Ravindran"
+      ],
+      "Actors": [
+        "Unni Mukundan",
+        "Nikhila Vimal",
+        "Chemban Vinod Jose"
+      ],
+      "Plot": "N/A",
+      "Language": [
+        "N/A"
+      ],
+      "Country": [
+        "India"
+      ],
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2NhMjE3ZmQtODc5MC00OGMxLWIyMDEtN2MwNmM5MDZkNmRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "id": "tt29718448",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "Fasle",
+      "Trailer": "https://www.youtube.com/embed/AaBquihdD5w"
+    },
+    {
+      "Title": "Jesus: Refugee, Renegade, Redeemer with Bear Grylls",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "17 Jan 2025",
+      "Runtime": "N/A",
+      "Genre": [
+        "Adventure"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "N/A"
+      ],
+      "Actors": [
+        "Bear Grylls",
+        "Mordechai Aviam",
+        "Moshe Basson"
+      ],
+      "Plot": "A survival expert traverses Israel's wilderness, following Jesus's historical path through ancient sites. Bear Grylls uses outdoor skills to explore landscapes from Nazareth to Jerusalem while chronicling key moments in Jesus's life.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDg3MjczYzgtZGQxNC00ZjdkLWEzNDItMjU0ZGQwYzgyMjVmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "9",
+      "id": "tt35446528",
+      "Type": "series",
+      "totalSeasons": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/F9l58VraRww"
+    },
+    {
+      "Title": "The Land That Time Forgot",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "24 Jan 2025",
+      "Runtime": "89 min",
+      "Genre": [
+        "Action",
+        "Adventure"
+      ],
+      "Director": [
+        "Anthony Frith"
+      ],
+      "Writer": [
+        "Dan Telfer"
+      ],
+      "Actors": [
+        "Michael Paré",
+        "Jack Pearson",
+        "Lauren Koopowitz"
+      ],
+      "Plot": "Present-day survivors of a sunken naval vessel capture a Russian sub, only to find themselves stranded on an island filled with deadly, prehistoric creatures",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2NhMTBmMDMtNWI5Zi00MDYyLWEyZTAtMzRmNGFkMmNhMTI2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.8/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "5.8",
+      "imdbVotes": "29",
+      "id": "tt33183915",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/t94rMRwj_NM"
+    },
+    {
+      "Title": "Only on Earth",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "20 Apr 2025",
+      "Runtime": "93 min",
+      "Genre": [
+        "Documentary"
+      ],
+      "Director": [
+        "Robin Petré"
+      ],
+      "Writer": [
+        "Robin Petré"
+      ],
+      "Actors": [
+        "N/A"
+      ],
+      "Plot": "An immersive journey into southern Galicia, one of Europe's most vulnerable wildfire zones, where humans and animals alike struggle to cope during the hottest, driest summer on record.",
+      "Language": [
+        "Spanish",
+        "Galician"
+      ],
+      "Country": [
+        "Denmark",
+        "Spain"
+      ],
+      "Awards": "1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODNiZmIzZDEtOTUzNy00ZDVmLTliYWItOTk0NGE0ZTA2MTc2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "16",
+      "id": "tt32373054",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/o7Ql4xmu9xk"
+    },
+    {
+      "Title": "Denise Richards & Her Wild Things",
+      "Year": "2025",
+      "Rated": "TV-14",
+      "Released": "04 Mar 2025",
+      "Runtime": "N/A",
+      "Genre": [
+        "Documentary",
+        "Reality-TV"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "N/A"
+      ],
+      "Actors": [
+        "Denise Richards",
+        "Aaron Phypers",
+        "Sami Sheen"
+      ],
+      "Plot": "Hollywood icon Denise Richards is trying to balance it all as she navigates being an actress, wife and mother in the public eye.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDZiZGFjYzItNWI5Ni00YzRhLThkODEtNTM4ODAzZWYwNzFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.7/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.7",
+      "imdbVotes": "63",
+      "id": "tt32590397",
+      "Type": "series",
+      "totalSeasons": "N/A",
+      "Response": "True",
+      "Popular": "False",
+      "Trailer": "https://www.youtube.com/embed/wR_ltTQfKD0"
+    },
+    {
+      "Title": "The Mandalorian",
+      "Year": "2019",
+      "Rated": "TV-14",
+      "Released": "12 Nov 2019",
+      "Runtime": "40 min",
+      "Genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Jon Favreau"
+      ],
+      "Actors": [
+        "Pedro Pascal",
+        "Chris Bartlett",
+        "Katee Sackhoff"
+      ],
+      "Plot": "After the stories of Jango and Boba Fett, another warrior emerges in the Star Wars universe. The Mandalorian is set after the fall of the Empire and before the emergence of the First Order. We follow the travails of a lone gunfighter in the outer reaches of the galaxy far from the authority of the New Republic.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "Won 15 Primetime Emmys. 62 wins & 162 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.6",
+      "imdbVotes": "613,740",
+      "id": "tt8111088",
+      "Type": "series",
+      "totalSeasons": "3",
+      "Response": "True",
+      "Popular": "True",
+      "Trailer": "https://www.youtube.com/embed/aOC8E8z_ifw"
+    },
+    {
+      "Title": "Doctor Strange in the Multiverse of Madness",
+      "Year": "2022",
+      "Rated": "PG-13",
+      "Released": "06 May 2022",
+      "Runtime": "126 min",
+      "Genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "Director": [
+        "Sam Raimi"
+      ],
+      "Writer": [
+        "Michael Waldron",
+        "Stan Lee",
+        "Steve Ditko"
+      ],
+      "Actors": [
+        "Benedict Cumberbatch",
+        "Elizabeth Olsen",
+        "Chiwetel Ejiofor"
+      ],
+      "Plot": "After the events of Avengers: Endgame, Dr. Stephen Strange continues his research on the Time Stone. But an old friend turned enemy seeks to destroy every sorcerer on Earth, messing with Strange's plan, causing him to unleash an unspeakable evil",
+      "Language": [
+        "English",
+        "Spanish",
+        "Chinese"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "10 wins & 34 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "74%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "60/100"
+        },
+        {
+          "Source": "ascsa",
+          "Value": "csaca"
+        }
+      ],
+      "Metascore": "60",
+      "imdbRating": "6.9",
+      "imdbVotes": "509,879",
+      "id": "tt9419884",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$411,331,607",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "True",
+      "Trailer": "https://www.youtube.com/embed/aWzlQ2N6qqg"
+    },
+    {
+      "Title": "Stranger Things",
+      "Year": "2016",
+      "Rated": "TV-14",
+      "Released": "15 Jul 2016",
+      "Runtime": "51 min",
+      "Genre": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Matt Duffer",
+        "Ross Duffer"
+      ],
+      "Actors": [
+        "Millie Bobby Brown",
+        "Finn Wolfhard",
+        "Winona Ryder"
+      ],
+      "Plot": "In a small town where everyone knows everyone, a peculiar incident starts a chain of events that leads to the disappearance of a child, which begins to tear at the fabric of an otherwise peaceful community. Dark government agencies and seemingly malevolent supernatural forces converge on the town, while a few of the locals begin to understand that there's more going on than meets the eye.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "Won 12 Primetime Emmys. 114 wins & 324 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjg2NmM0MTEtYWY2Yy00NmFlLTllNTMtMjVkZjEwMGVlNzdjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,437,239",
+      "id": "tt4574334",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True",
+      "Popular": "True",
+      "Trailer": "https://www.youtube.com/embed/b9EkMc79ZSU"
+    },
+    {
+      "Title": "Spider-Man: No Way Home",
+      "Year": "2021",
+      "Rated": "PG-13",
+      "Released": "17 Dec 2021",
+      "Runtime": "148 min",
+      "Genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "Director": [
+        "Jon Watts"
+      ],
+      "Writer": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
+      ],
+      "Actors": [
+        "Tom Holland",
+        "Zendaya",
+        "Benedict Cumberbatch"
+      ],
+      "Plot": "Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.",
+      "Language": [
+        "English",
+        "Tagalog"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "Nominated for 1 Oscar. 35 wins & 71 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "71/100"
+        }
+      ],
+      "Metascore": "71",
+      "imdbRating": "8.2",
+      "imdbVotes": "939,737",
+      "id": "tt10872600",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$814,866,759",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "True",
+      "Trailer": "https://www.youtube.com/embed/JfVOs4VSpmA"
+    },
+    {
+      "Title": "The Boys",
+      "Year": "2019",
+      "Rated": "TV-MA",
+      "Released": "26 Jul 2019",
+      "Runtime": "31S min",
+      "Genre": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "Director": [
+        "N/A"
+      ],
+      "Writer": [
+        "Eric Kripke"
+      ],
+      "Actors": [
+        "Karl Urban",
+        "Jack Quaid",
+        "Antony Starr"
+      ],
+      "Plot": "The Boys is set in a universe in which superpowered people are recognized as heroes by the general public and owned by a powerful corporation, Vought International, which ensures that they are aggressively marketed and monetized. Outside of their heroic personas, most are arrogant and corrupt. The series primarily focuses on two groups: the titular Boys, vigilantes looking to keep the corrupted heroes under control, and the Seven, Vought International's premier superhero team. The Boys are led by Billy Butcher, who despises all superpowered people, and the Seven are led by the egotistical and unstable Homelander. As a conflict ensues between the two groups, the series also follows the new members of each team: Hugh \"Hughie\" Campbell of the Boys, who joins the vigilantes after his girlfriend is killed in a high-speed collision by the Seven's A-Train, and Annie January/Starlight of the Seven, a young and hopeful heroine forced to face the truth about the heroes she admires.",
+      "Language": [
+        "English"
+      ],
+      "Country": [
+        "United States"
+      ],
+      "Awards": "Won 1 Primetime Emmy. 23 wins & 85 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWJlN2U5MzItNjU4My00NTM2LWFjOWUtOWFiNjg3ZTMxZDY1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.6",
+      "imdbVotes": "775,063",
+      "id": "tt1190634",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True",
+      "Popular": "True",
+      "Trailer": "https://www.youtube.com/embed/M1bhOaLV4FU"
+    },
+    {
+      "id": "7b30",
+      "Title": "Sherrr",
+      "Year": "2022",
+      "Rated": "Not Rated",
+      "Released": "20 Sep 1962",
+      "Runtime": "85 min",
+      "Genre": [
+        "action",
+        "Drama"
+      ],
+      "Director": [
+        "Omar",
+        "Khaled"
+      ],
+      "Writer": [
+        "Abaza",
+        "Ahmed"
+      ],
+      "Actors": [
+        "omnia",
+        "Khaled",
+        "Omar"
+      ],
+      "Plot": "hello LinKED IN oMAR aBAZA",
+      "Language": [
+        "ENGLISH",
+        "ARABIC"
+      ],
+      "Country": [
+        "UNITES STATE",
+        "EGYPT"
+      ],
+      "Awards": "",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "omar",
+          "Value": "tesssssst"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "9",
+      "imdbVotes": "",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$24,517",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "Popular": "true",
+      "Trailer": "https://www.youtube.com/emded/ZAZGR5O33jw"
+    }
+  ]
+}

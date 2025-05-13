@@ -1,0 +1,40 @@
+nav {
+  background-color: #121212;
+  .logo {
+    color: #e3080f;
+    margin-right: 2.25rem;
+  }
+  .navbar-toggler {
+    background-color: #fff;
+  }
+  .nav-link:hover {
+    color: #e3080f !important;
+  }
+
+  .navbar-nav {
+    margin-inline: auto;
+  }
+  .active {
+    color: #e3080f !important;
+  }
+
+  input {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+
+  input::placeholder {
+    color: #cdcccc !important;
+  }
+}
+.search-nav {
+  width: 15%;
+}
+.searchNav {
+  border-color: rgb(51, 51, 51);
+}
+@media (max-width: 992px) {
+  .search-nav {
+    width: 100%;
+  }
+}
