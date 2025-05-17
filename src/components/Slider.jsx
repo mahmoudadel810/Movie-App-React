@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import { Carousel, Button } from "react-bootstrap";
 import { FaPlay } from "react-icons/fa";
@@ -18,9 +20,9 @@ export default function Slider() {
   }, []);
 
   const slides = [
-    { bgImage: "public/img/slider1.png" },
-    { bgImage: "public/img/slider2.png" },
-    { bgImage: "public/img/slider3.png" },
+    { bgImage: "/Movie-App-React/img/slider1.png" },
+    { bgImage: "/Movie-App-React/img/slider2.png" },
+    { bgImage: "/Movie-App-React/img/slider3.png" }
   ];
 
   return (
@@ -28,8 +30,7 @@ export default function Slider() {
       activeIndex={index}
       onSelect={handleSelect}
       controls={true}
-      indicators={true}
-    >
+      indicators={true}>
       {slides.map((slide, idx) => (
         <Carousel.Item key={idx}>
           <div
@@ -44,9 +45,8 @@ export default function Slider() {
               alignItems: "center",
               textAlign: "center",
               color: "white",
-              padding: "0 20px 100px",
-            }}
-          >
+              padding: "0 20px 100px"
+            }}>
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -55,9 +55,8 @@ export default function Slider() {
                 fontSize: "3rem",
                 fontWeight: "bold",
                 marginBottom: "20px",
-                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              }}
-            >
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"
+              }}>
               The Best Streaming Experience
             </motion.h1>
 
@@ -69,9 +68,8 @@ export default function Slider() {
                 fontSize: "1rem",
                 maxWidth: "1000px",
                 marginBottom: "30px",
-                textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
-              }}
-            >
+                textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)"
+              }}>
               StreamVibe is the best streaming experience for watching your
               favorite movies and shows on demand, anytime, anywhere. With
               StreamVibe, you can enjoy a wide variety of content, including the
@@ -83,8 +81,7 @@ export default function Slider() {
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.6, duration: 0.5 }}
-            >
+              transition={{ delay: 0.6, duration: 0.5 }}>
               <Button
                 variant="danger"
                 className="slider-button d-flex justify-content-center align-items-center"
@@ -97,9 +94,8 @@ export default function Slider() {
                   fontWeight: "bold",
                   borderRadius: "20px",
                   margin: "0 auto",
-                  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
-                }}
-              >
+                  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)"
+                }}>
                 <FaPlay className="me-2" />
                 Start Watching Now
               </Button>

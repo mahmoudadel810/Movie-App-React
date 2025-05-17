@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import Slider from "../../components/Slider";
 import MoviesSection from "../../components/MoviesSection";
@@ -10,14 +12,14 @@ export default function Home() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const res = await fetch("../server/data.json");
+        const res = await fetch("http://localhost:3000/movies");
 
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
 
         const data = await res.json();
-        setMovies(data.movies || []);
+        setMovies(data || []);
       } catch (error) {
         console.error("Error fetching movies:", error);
         setError(error.message);
