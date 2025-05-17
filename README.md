@@ -3,6 +3,7 @@
 # Movie App
 
 A modern web application for browsing and exploring movies built with React, Redux, and Bootstrap.
+ ![Screenshot 2025-05-13 at 11 27 39 AM](https://github.com/user-attachments/assets/325e10d2-feaf-44a4-ba83-f527f574d2f0)
 
 ## Features
 
@@ -36,6 +37,7 @@ A modern web application for browsing and exploring movies built with React, Red
 git clone https://github.com/mahmoudadel810/Movie-App-React.git
 cd movie-app
 ```
+
 
 2. Install dependencies
 
