@@ -1,9 +1,12 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { checkAdminPassword, checkIfAdminLogged } from "../../API/FetchData";
 import SharedBtn from "../../SharedBtn";
-import "./AdminLogin.css";
+import "./adminLogin.css";
 import { motion } from "framer-motion";
+import adminSvg from "../../assets/admin.svg";
 
 export default function AdminLogin() {
   const navigate = useNavigate();
@@ -62,34 +65,26 @@ export default function AdminLogin() {
         className="admin-login-container container p-4 p-md-5 rounded-4 shadow-lg bg-dark text-white"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-      >
+        transition={{ duration: 0.5 }}>
         <div className="row align-items-center">
           <motion.div
             className="col-lg-6 mb-4 mb-lg-0 text-center"
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-          >
-            <img
-              src="../../../src/assets/admin.svg"
-              alt="Admin Login"
-              className="img-fluid w-75"
-            />
+            transition={{ delay: 0.3, duration: 0.6 }}>
+            <img src={adminSvg} alt="Admin Login" className="img-fluid w-75" />
           </motion.div>
 
           <motion.div
             className="col-lg-6"
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.4, duration: 0.6 }}
-          >
+            transition={{ delay: 0.4, duration: 0.6 }}>
             <motion.h2
               className="mb-4 fw-bold text-center"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5 }}
-            >
+              transition={{ delay: 0.5 }}>
               Admin Login
             </motion.h2>
 
@@ -116,8 +111,7 @@ export default function AdminLogin() {
                   className="invalid-feedback d-block"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  transition={{ delay: 0.6 }}
-                >
+                  transition={{ delay: 0.6 }}>
                   Password is incorrect. Please try again.
                 </motion.div>
               )}
@@ -125,12 +119,10 @@ export default function AdminLogin() {
                 className="text-center mt-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 0.7 }}
-              >
+                transition={{ delay: 0.7 }}>
                 <SharedBtn
                   type="submit"
-                  disabled={isLoading || !adminPass.trim()}
-                >
+                  disabled={isLoading || !adminPass.trim()}>
                   {isLoading ? (
                     <>
                       <span className="spinner-border spinner-border-sm me-2"></span>

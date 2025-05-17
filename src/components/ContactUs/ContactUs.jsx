@@ -1,8 +1,11 @@
+/** @format */
+
 import React, { useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 import { motion } from "framer-motion";
 import SharedBtn from "../../SharedBtn";
 import "./contact-us.css";
+import subImage from "../../assets/Sub.png";
 
 export function ContactUs() {
   return (
@@ -16,8 +19,7 @@ export function ContactUs() {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
-              viewport={{ once: true, amount: 0.3 }}
-            >
+              viewport={{ once: true, amount: 0.3 }}>
               <h1>Welcome to our Contact US Page!</h1>
               <p className="text-white-50">
                 We're here to help you with any problems you may be having with
@@ -26,7 +28,7 @@ export function ContactUs() {
               <div className="main__image">
                 <motion.img
                   className="w-100"
-                  src="../../src/assets/Sub.png"
+                  src={subImage}
                   alt="Sub Image"
                   initial={{ opacity: 0, scale: 0.95 }}
                   whileInView={{ opacity: 1, scale: 1 }}
@@ -42,15 +44,13 @@ export function ContactUs() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              viewport={{ once: true, amount: 0.3 }}
-            >
+              viewport={{ once: true, amount: 0.3 }}>
               <motion.form
                 className="row g-3 shadow-sm rounded"
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                viewport={{ once: true }}
-              >
+                viewport={{ once: true }}>
                 <div className="col-md-6">
                   <label htmlFor="fristName" className="form-label">
                     Frist Name
@@ -66,8 +66,7 @@ export function ContactUs() {
                   <label
                     htmlFor="lastName"
                     placeholder="Enter Last Name"
-                    className="form-label"
-                  >
+                    className="form-label">
                     Last Name
                   </label>
                   <input
@@ -95,8 +94,7 @@ export function ContactUs() {
                   <textarea
                     className="form-control px-2 py-2 py-lg-3"
                     placeholder="Enter Your Message"
-                    id="message"
-                  ></textarea>
+                    id="message"></textarea>
                 </div>
                 <div className="col-12 d-flex flex-wrap gap-3 justify-content-between align-items-center">
                   <div className="form-check">
