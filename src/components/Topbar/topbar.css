@@ -8,7 +8,7 @@
       rgba(34, 14, 14, 0.91) 28%,
       #e5000000 100%
     ),
-    url("/Movie-App-React/background.png");
+    url("/background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
