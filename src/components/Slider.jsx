@@ -20,9 +20,9 @@ export default function Slider() {
   }, []);
 
   const slides = [
-    { bgImage: "/Movie-App-React/img/slider1.png" },
-    { bgImage: "/Movie-App-React/img/slider2.png" },
-    { bgImage: "/Movie-App-React/img/slider3.png" }
+    { bgImage: "/img/slider1.png" },
+    { bgImage: "/img/slider2.png" },
+    { bgImage: "/img/slider3.png" }
   ];
 
   return (

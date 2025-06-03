@@ -13,7 +13,7 @@ export default function Home() {
     const fetchMovies = async () => {
       try {
         const res = await fetch(
-          "https://my-json-server.typicode.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/movies"
+          "https://movie-app-server-seven.vercel.app/api/movies"
         );
 
         if (!res.ok) {

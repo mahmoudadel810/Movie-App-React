@@ -1,20 +1,24 @@
 import axios from "axios";
 
 //Base URL
-const baseUrl = "http://localhost:3000/";
+const baseUrl = "https://movie-app-server-seven.vercel.app/api/";
 
 //get all movies
-export const getAllMovies = async () => {
-  try {
+export const getAllMovies = async () =>
+{
+  try
+  {
     const response = await axios.get(`${baseUrl}movies`);
     return response.data; // Returns only the data payload
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error fetching movies:", error);
     throw error; // Re-throw for component-level handling
   }
 };
 //get popular movies
-export const getPopularMovies = async () => {
+export const getPopularMovies = async () =>
+{
   let response = await getAllMovies();
   let data = await response.data;
 
@@ -23,34 +27,50 @@ export const getPopularMovies = async () => {
 };
 
 //get newest movies
-export const getNewestMovies = async () => {
-  try {
+export const getNewestMovies = async () =>
+{
+  try
+  {
     const response = await getAllMovies();
     const data = response.data;
 
     const newestMovies = data.filter((movie) => Number(movie.Year) >= 2023);
 
     return newestMovies;
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error fetching newest movies:", error);
     return [];
   }
 };
 
 //get movie by id
-export const getMovieById = async (imdbID) => {
-  try {
-    const response = await axios.get(`${baseUrl}movies/${imdbID}`);
-    return response.data; // Return the actual movie data
-  } catch (error) {
+export const getMovieById = async (imdbID) =>
+{
+  try
+  {
+    const response = await axios.get(`${baseUrl}movies`);
+    const allMovies = response.data;
+    const movie = allMovies.find(movie => movie.id === imdbID);
+
+    if (!movie)
+    {
+      throw new Error('Movie not found');
+    }
+
+    return movie;
+  } catch (error)
+  {
     console.error("Error fetching movie:", error);
-    throw error; // Re-throw to let calling code handle it
+    throw error;
   }
 };
 
 //get movie by search
-export const getMovieBySearch = async (searchQuery) => {
-  try {
+export const getMovieBySearch = async (searchQuery) =>
+{
+  try
+  {
     // Fetch all movies first
     const response = await axios.get(`${baseUrl}movies`);
     const allMovies = response.data;
@@ -61,7 +81,8 @@ export const getMovieBySearch = async (searchQuery) => {
     );
 
     return filteredMovies;
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error fetching or filtering movies:", error);
     throw error;
   }
@@ -72,19 +93,25 @@ export const getMovieByType = (type) =>
   axios.get(`${baseUrl}movies?Type=${type}`);
 
 //Delete Movie by ID
-export const deleteMovie = async (imdbID) => {
-  try {
+export const deleteMovie = async (imdbID) =>
+{
+  try
+  {
     const response = await axios.delete(`${baseUrl}movies/${imdbID}`);
     return response.data; // Typically returns success message or deleted movie data
-  } catch (error) {
+  } catch (error)
+  {
     console.error(`Error deleting movie ${imdbID}:`, error);
-    if (error.response) {
+    if (error.response)
+    {
       // Server responded with error status (4xx/5xx)
       throw new Error(error.response.data.message || "Failed to delete movie");
-    } else if (error.request) {
+    } else if (error.request)
+    {
       // Request was made but no response received
       throw new Error("No response from server - network error");
-    } else {
+    } else
+    {
       // Something else went wrong
       throw new Error("Error setting up delete request");
     }
@@ -93,30 +120,37 @@ export const deleteMovie = async (imdbID) => {
 
 //ADD MOVIE
 // In your API/FetchData.js
-export const addMovie = async (movieData) => {
+export const addMovie = async (movieData) =>
+{
   const response = await axios.post(`${baseUrl}movies`, movieData);
   // Return only the data part
   return response.data;
 };
 
 //edit movie
-export const editMovie = async (id, movie) => {
-  try {
+export const editMovie = async (id, movie) =>
+{
+  try
+  {
     const response = await axios.put(`${baseUrl}movies/${id}`, movie);
     return response.data; // Returns the updated movie data from server
-  } catch (error) {
+  } catch (error)
+  {
     console.error(`Error updating movie ${id}:`, error);
     throw error; // Re-throw to allow component-level error handling
   }
 };
 
 //add review
-export const addReviewToMovie = async (id, review) => {
-  try {
+export const addReviewToMovie = async (id, review) =>
+{
+  try
+  {
     const response = await axios.get(`${baseUrl}movies/${id}`);
     const movie = response.data;
 
-    if (!movie.Ratings) {
+    if (!movie.Ratings)
+    {
       movie.Ratings = [];
     }
     movie.Ratings.push(review);
@@ -125,21 +159,26 @@ export const addReviewToMovie = async (id, review) => {
 
     console.log("Review added successfully:", updateResponse.data);
     return updateResponse.data;
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error adding review:", error);
     throw error;
   }
 };
 
 //check Admin Password
-export const checkAdminPassword = async (password) => {
+export const checkAdminPassword = async (password) =>
+{
   let response = await axios.get(`${baseUrl}admin/1`);
   let data = await response.data;
-  if (data.password == password) {
+  if (data.password == password)
+  {
     localStorage.setItem("user", "admin");
     return true;
-  } else {
-    if (localStorage.getItem("user")) {
+  } else
+  {
+    if (localStorage.getItem("user"))
+    {
       localStorage.removeItem("user");
     }
     return false;
@@ -147,17 +186,22 @@ export const checkAdminPassword = async (password) => {
 };
 
 // Check if admin is logged
-export const checkIfAdminLogged = () => {
-  if (localStorage.getItem("user")) {
+export const checkIfAdminLogged = () =>
+{
+  if (localStorage.getItem("user"))
+  {
     return true;
-  } else {
+  } else
+  {
     return false;
   }
 };
 
 //filter movies by genre
-export const filterByGenre = async (genre) => {
-  try {
+export const filterByGenre = async (genre) =>
+{
+  try
+  {
     const response = await getAllMovies();
     const data = response.data;
     const filtered = data.filter((movie) =>
@@ -165,32 +209,37 @@ export const filterByGenre = async (genre) => {
     );
 
     return filtered;
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error filtering by genre:", error);
     return [];
   }
 };
 
 // get all Genre
-export const getAllGenres = async () => {
-  try {
+export const getAllGenres = async () =>
+{
+  try
+  {
     const response = await getAllMovies();
 
     // More flexible response handling
     const moviesArray = Array.isArray(response)
       ? response
       : Array.isArray(response?.data)
-      ? response.data
-      : [];
+        ? response.data
+        : [];
 
-    if (moviesArray.length === 0) {
+    if (moviesArray.length === 0)
+    {
       console.warn("No movies data received");
       return [];
     }
 
     // Extract and process genres
     const allGenres = moviesArray
-      .flatMap((movie) => {
+      .flatMap((movie) =>
+      {
         // Handle different possible Genre field structures
         if (!movie?.Genre) return [];
         if (Array.isArray(movie.Genre)) return movie.Genre;
@@ -204,15 +253,18 @@ export const getAllGenres = async () => {
     const uniqueGenres = [...new Set(allGenres)];
 
     return uniqueGenres;
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error fetching genres:", error);
     return [];
   }
 };
 
 //filter all Language
-export const filterByLanguage = async (language) => {
-  try {
+export const filterByLanguage = async (language) =>
+{
+  try
+  {
     const response = await getAllMovies();
     const movies = response.data;
 
@@ -225,30 +277,37 @@ export const filterByLanguage = async (language) => {
     );
 
     return filteredMovies;
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error filtering movies by language:", error);
     return [];
   }
 };
 
 // get all Language
-export const getAllLanguages = async () => {
-  try {
+export const getAllLanguages = async () =>
+{
+  try
+  {
     const response = await getAllMovies();
     const movies = response.data;
 
     const languageSet = new Set();
 
-    movies.forEach((movie) => {
-      if (Array.isArray(movie.Language)) {
-        movie.Language.forEach((lang) => {
+    movies.forEach((movie) =>
+    {
+      if (Array.isArray(movie.Language))
+      {
+        movie.Language.forEach((lang) =>
+        {
           languageSet.add(lang.trim());
         });
       }
     });
 
     return Array.from(languageSet).sort();
-  } catch (error) {
+  } catch (error)
+  {
     console.error("Error fetching languages:", error);
     return [];
   }
