@@ -12,7 +12,9 @@ export default function Home() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const res = await fetch("http://localhost:3000/movies");
+        const res = await fetch(
+          "https://my-json-server.typicode.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/movies"
+        );
 
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
