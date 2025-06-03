@@ -25,6 +25,14 @@ export default function Slider() {
     { bgImage: "/img/slider3.png" }
   ];
 
+  // Add error handling for images
+  const handleImageError = (e) => {
+    console.error("Error loading image:", e.target.src);
+    // Fallback to a default background color if image fails to load
+    e.target.style.backgroundImage =
+      "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7))";
+  };
+
   return (
     <Carousel
       activeIndex={index}
@@ -46,7 +54,8 @@ export default function Slider() {
               textAlign: "center",
               color: "white",
               padding: "0 20px 100px"
-            }}>
+            }}
+            onError={handleImageError}>
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
